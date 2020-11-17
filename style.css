@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  font-family: "Roboto";
+  line-height: 24px;
+  margin:    15% auto;
+  max-width: 650px;
+}
+
+h1 {
+  margin-bottom: 26px;
+}
+
+a {
+  transition: all .15s ease-in-out;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #a3a3a3;
+  text-decoration: none;
+  color: currentColor;
+}
+
+a:hover {
+  color: #a3a3a3;
+}
+
+.small {
+  font-size: 14px;
+}
+
+.social-buttons{
+  position: absolute;
+  bottom: 20px;
+  width: 50%;
+}
