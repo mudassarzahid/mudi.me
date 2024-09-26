@@ -1,6 +1,5 @@
 'use client';
 import {Button, ButtonGroup} from "flowbite-react";
-import {FaGithub, FaLinkedin, FaInbox, FaDev} from "react-icons/fa";
 import Devpost from "../logos/Devpost.jsx";
 import GitHub from "../logos/GitHub.jsx";
 import LinkedIn from "../logos/LinkedIn.jsx";
