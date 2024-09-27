@@ -26,13 +26,14 @@ const Headline = () => {
             ]}
             repeat={0}
         />
+        <br/>
         {
             headlineDone && <TypeAnimation
                 style={{whiteSpace: 'pre-line'}}
                 speed={85}
                 splitter={(str) => splitter.splitGraphemes(str)}
                 cursor={false}
-                className={`${CURSOR_CLASS_NAME} text-xl dark:text-white`}
+                className={`${CURSOR_CLASS_NAME} text-xl dark:text-white leading-9`}
                 sequence={[
                     "... or just Mudi for short! :)",
                     300,

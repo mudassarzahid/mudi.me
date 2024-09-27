@@ -6,8 +6,8 @@ import LinkedIn from "../logos/LinkedIn.jsx";
 import Inbox from "../logos/Inbox.jsx";
 
 
-const SocialButtons = (props) => {
-    const logoClass = "flex items-stretch transition-all duration-200 rounded-md px-2 py-1 text-sm rounded-l-none"
+const SocialButtons = () => {
+    const logoClass = "flex transition-all duration-200 px-2 py-1 items-center"
 
     return <ButtonGroup className="justify-center">
         <Button color="gray">
